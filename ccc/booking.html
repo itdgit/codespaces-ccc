@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Hotel Booking</title>
+        <link rel="stylesheet" href="./csss/index.css" />
+    </head>
+    <style>
+        div.background {
+  background: lightblue url("images/background.jpg") no-repeat center;
+  background-size: cover;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 1100px;
+  width: 1255px;
+}
+div.transbox {
+  background-color: rgba(255, 255, 255, 0.4);
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
+  padding: 40px;
+  margin: 260x;
+  font-weight: bold;
+}
+    </style>
+<body>
+    <img src="./images/logo.jpg" alt="logo"/>
+    <h1><center>Hotel Booking</center></h1>
+    <br>
+    <ul>
+    <li><a href="ind.html" target="_blank">Home</a></li>
+<li><a href="heritage.html" target="_blank">Heritage</a></li>
+<li><a href="gallery.html" target="_blank">Gallery</a></li>
+<li><a href="booking.html" target="_blank">Hotel Booking</a></li>
+<li><a href="contact.html" target="_blank">Contact Us</a></li>
+</ul>
+<div class="background">
+    <div class="transbox">
+<form action="" method="">
+    <label>Name : <input type="text"></label>
+    <br>
+    <br>
+    <label>Gender : </label>
+    <input type="radio" name="gender" value="Male">Male
+    <input type="radio" name="gender" value="Female">Female
+    <input type="radio" name="gender" value="Other">Other
+    <br>
+    <br>
+    <label>Date of Birth : </label>
+    <input type="date" name="birthdate">
+    <br>
+    <br>
+    <label>Email ID : </label>
+    <input type="email" name="">
+    <br>
+    <br>
+    <table border="1" bordercolor="#aaa" cellspacing="0" cellpadding="0">
+        <tr>
+            <h6><th>Sr No.</th></h6>
+            <h6><th>Name of the Hotel</th></h6>
+            <h6><th>Area</th></h6>
+            <h6><th>Contact</th></h6>
+        </tr>
+        <tr>
+            <td>1.</td>
+            <td>Radisson Blue</td>
+            <td>West Delhi</td>
+            <td>123456789</td>
+        </tr>
+        <tr>
+            <td>2.</td>
+            <td>Le Meridien</td>
+            <td>Central Delhi</td>
+            <td>123456789</td>
+        </tr>
+        <tr>
+            <td>3.</td>
+            <td>Hyatt Regency</td>
+            <td>South Delhi</td>
+            <td>123456789</td>
+        </tr>
+        <tr>
+            <td>4.</td>
+            <td>The Leela Ambience Convention hotel</td>
+            <td>East Delhi</td>
+            <td>123456789</td>
+        </tr>
+        <tr>
+            <td>5.</td>
+            <td>ITC Maurya</td>
+            <td>North Delhi</td>
+            <td>123456789</td>
+        </tr>
+    </table>   
+    <br>
+    <br>
+    <label>Type of Room : </label>
+    <input type="radio" name="room" value="Royal Suite">Royal Suite
+    <input type="radio" name="room" value="Golden Suite">Golden Suite
+    <input type="radio" name="room" value="Silver Suite">Silver Suite
+    <br>
+    <br>
+    <label>Check in Date:</label>
+    <input type="date" name="check in date">
+    <br>
+    <label>Check out Date:</label>
+    <input type="date" name="check out date">
+    <br>
+    <br>
+    <button type="submit">Submit</button>
+</form>
+</div>
+</div>
+</body>
+</html>

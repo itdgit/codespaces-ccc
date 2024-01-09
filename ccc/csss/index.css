@@ -1,0 +1,23 @@
+h1{
+    color:rgb(1, 92, 92);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: lighter;
+
+}
+h2,h4,h5,h6,p{
+    color: black;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:large;
+    align-content: space-between;
+    font-style: italic;
+    justify-content: center;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 5px;
+    background-color:darkseagreen;
+}
+li{
+    display: inline;
+}
